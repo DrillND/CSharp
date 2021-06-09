@@ -5,3 +5,10 @@ C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\obj\Debug\20210609Basic
 C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\obj\Debug\20210609Basic.csproj.CoreCompileInputs.cache
 C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\obj\Debug\20210609Basic.exe
 C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\obj\Debug\20210609Basic.pdb
+C:\Users\X\Downloads\GitHub_DeskTop\CSharp\20210609Basic\20210609Basic\bin\Debug\20210609Basic.exe.config
+C:\Users\X\Downloads\GitHub_DeskTop\CSharp\20210609Basic\20210609Basic\bin\Debug\20210609Basic.exe
+C:\Users\X\Downloads\GitHub_DeskTop\CSharp\20210609Basic\20210609Basic\bin\Debug\20210609Basic.pdb
+C:\Users\X\Downloads\GitHub_DeskTop\CSharp\20210609Basic\20210609Basic\obj\Debug\20210609Basic.csprojAssemblyReference.cache
+C:\Users\X\Downloads\GitHub_DeskTop\CSharp\20210609Basic\20210609Basic\obj\Debug\20210609Basic.csproj.CoreCompileInputs.cache
+C:\Users\X\Downloads\GitHub_DeskTop\CSharp\20210609Basic\20210609Basic\obj\Debug\20210609Basic.exe
+C:\Users\X\Downloads\GitHub_DeskTop\CSharp\20210609Basic\20210609Basic\obj\Debug\20210609Basic.pdb
