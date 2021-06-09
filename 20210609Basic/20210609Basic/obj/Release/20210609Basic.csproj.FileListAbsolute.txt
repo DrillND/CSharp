@@ -1,0 +1,6 @@
+C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\bin\Release\20210609Basic.exe.config
+C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\bin\Release\20210609Basic.exe
+C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\bin\Release\20210609Basic.pdb
+C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\obj\Release\20210609Basic.csproj.CoreCompileInputs.cache
+C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\obj\Release\20210609Basic.exe
+C:\Users\KB\Downloads\CSharp\20210609Basic\20210609Basic\obj\Release\20210609Basic.pdb
