@@ -1,0 +1,7 @@
+C:\Users\KB\Downloads\CSharp\20210610Class_2\20210610Class_2\obj\Debug\20210610Class_2.csprojAssemblyReference.cache
+C:\Users\KB\Downloads\CSharp\20210610Class_2\20210610Class_2\obj\Debug\20210610Class_2.csproj.CoreCompileInputs.cache
+C:\Users\KB\Downloads\CSharp\20210610Class_2\20210610Class_2\bin\Debug\20210610Class_2.exe.config
+C:\Users\KB\Downloads\CSharp\20210610Class_2\20210610Class_2\bin\Debug\20210610Class_2.exe
+C:\Users\KB\Downloads\CSharp\20210610Class_2\20210610Class_2\bin\Debug\20210610Class_2.pdb
+C:\Users\KB\Downloads\CSharp\20210610Class_2\20210610Class_2\obj\Debug\20210610Class_2.exe
+C:\Users\KB\Downloads\CSharp\20210610Class_2\20210610Class_2\obj\Debug\20210610Class_2.pdb

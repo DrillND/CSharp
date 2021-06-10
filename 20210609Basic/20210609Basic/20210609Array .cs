@@ -74,34 +74,32 @@ namespace _20210609Basic
             Console.WriteLine("==============================");
 
             int[][] arr5 = new int[3][];
-            for (int i = 0; i<arr5.Length; i++)
+            for (int i = 0; i < arr5.Length; i++)
             {
-                for(int j=0; i<arr5.Length; j++)
-                {
-                    arr5[i][j] = { }
-                }
-                
-               
+
+                arr5[i] = new int[] { i+ 1, i + 2, i + 3 };
+
             }
+
             int[][] arr55 = new int[3][];
             for (int i = 0; i < arr55.Length; i++)
             {
-                for (int j = 1; j < 10; j = j + 3)
-                {
-                    arr5[i] = new int[] { j*10, (j + 1)*10, (j + 2)*10 };
-                }
-
+                arr55[i] = new int[] { (i + 1) * 10, (i + 2) * 10, (i + 3) * 10 };
             }
-            
-            
 
-            //06
-            Console.WriteLine("\n문제 6");
+            for (int i = 0; i < arr5.Length; i++)
+
+
+
+
+
+                //06
+                Console.WriteLine("\n문제 6");
             Console.WriteLine("==============================");
 
             int[][] arr6 = new int[8][];
 
-            for (int i = 0; i < arr6.Length+1; i++)
+            for (int i = 0; i < arr6.Length + 1; i++)
             {
                 for (int j = 0; j < arr6.Length; j++)
                 {
@@ -114,6 +112,8 @@ namespace _20210609Basic
             //07
             Console.WriteLine("\n문제 7");
             Console.WriteLine("==============================");
+            char[] arr7 = new char[5] { };
+
 
         }
     }
