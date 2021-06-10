@@ -28,8 +28,13 @@ namespace _20210610Class_2
                 Console.WriteLine(st[i].ToString());
             }
 
-            st[9] = new Student("전우치", 23, '남', "대구");
-            st[9].showStudentInfo();
+
+            st[9].Name = "전우치";
+            st[9].Age = 24;
+            st[9].Gender = '남';
+            st[9].Address = "대구";
+            //st[9] = new Student("전우치", 23, '남', "대구");
+            //st[9].showStudentInfo();
 
            
         }

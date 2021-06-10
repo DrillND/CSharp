@@ -43,14 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="com.Car.carApp.car\Car.cs" />
+    <Compile Include="com.Car.carApp.customer\Customer.cs" />
+    <Compile Include="com.Car.carApp.util\RandomCustomer.cs" />
+    <Compile Include="com.Car.carApp\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
