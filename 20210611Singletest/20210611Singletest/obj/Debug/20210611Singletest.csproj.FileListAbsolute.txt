@@ -1,0 +1,7 @@
+C:\Users\KB\Downloads\CSharp\20210611Singletest\20210611Singletest\bin\Debug\20210611Singletest.exe.config
+C:\Users\KB\Downloads\CSharp\20210611Singletest\20210611Singletest\bin\Debug\20210611Singletest.exe
+C:\Users\KB\Downloads\CSharp\20210611Singletest\20210611Singletest\bin\Debug\20210611Singletest.pdb
+C:\Users\KB\Downloads\CSharp\20210611Singletest\20210611Singletest\obj\Debug\20210611Singletest.csprojAssemblyReference.cache
+C:\Users\KB\Downloads\CSharp\20210611Singletest\20210611Singletest\obj\Debug\20210611Singletest.csproj.CoreCompileInputs.cache
+C:\Users\KB\Downloads\CSharp\20210611Singletest\20210611Singletest\obj\Debug\20210611Singletest.exe
+C:\Users\KB\Downloads\CSharp\20210611Singletest\20210611Singletest\obj\Debug\20210611Singletest.pdb
