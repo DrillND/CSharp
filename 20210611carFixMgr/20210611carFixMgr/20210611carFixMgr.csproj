@@ -110,6 +110,9 @@
     <Content Include="ReadMePng\类库上右键.png" />
     <Content Include="resource\sk_image.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="handler\" />
+    <Folder Include="model\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
