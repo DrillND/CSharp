@@ -40,11 +40,11 @@ namespace _20210611carFixMgr.ui
             this.custDay = new Sunny.UI.UIComboBox();
             this.carModel = new Sunny.UI.UIComboBox();
             this.uiSymbolLabel4 = new Sunny.UI.UISymbolLabel();
-            this.CarNum = new Sunny.UI.UITextBox();
+            this.carNum = new Sunny.UI.UITextBox();
             this.uiSymbolLabel5 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel6 = new Sunny.UI.UISymbolLabel();
-            this.CarCC = new Sunny.UI.UIComboBox();
-            this.CarYear = new Sunny.UI.UIComboBox();
+            this.carCC = new Sunny.UI.UIComboBox();
+            this.carYear = new Sunny.UI.UIComboBox();
             this.uiSymbolLabel7 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel8 = new Sunny.UI.UISymbolLabel();
             this.uiSymbolLabel9 = new Sunny.UI.UISymbolLabel();
@@ -326,21 +326,21 @@ namespace _20210611carFixMgr.ui
             this.uiSymbolLabel4.Text = "차량모델";
             this.uiSymbolLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // CarNum
+            // carNum
             // 
-            this.CarNum.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.CarNum.FillColor = System.Drawing.Color.White;
-            this.CarNum.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.CarNum.Location = new System.Drawing.Point(189, 266);
-            this.CarNum.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.CarNum.Maximum = 2147483647D;
-            this.CarNum.Minimum = -2147483648D;
-            this.CarNum.MinimumSize = new System.Drawing.Size(1, 1);
-            this.CarNum.Name = "CarNum";
-            this.CarNum.Padding = new System.Windows.Forms.Padding(5);
-            this.CarNum.Size = new System.Drawing.Size(142, 29);
-            this.CarNum.TabIndex = 13;
-            this.CarNum.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.carNum.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.carNum.FillColor = System.Drawing.Color.White;
+            this.carNum.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.carNum.Location = new System.Drawing.Point(189, 266);
+            this.carNum.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.carNum.Maximum = 2147483647D;
+            this.carNum.Minimum = -2147483648D;
+            this.carNum.MinimumSize = new System.Drawing.Size(1, 1);
+            this.carNum.Name = "carNum";
+            this.carNum.Padding = new System.Windows.Forms.Padding(5);
+            this.carNum.Size = new System.Drawing.Size(142, 29);
+            this.carNum.TabIndex = 13;
+            this.carNum.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // uiSymbolLabel5
             // 
@@ -372,31 +372,31 @@ namespace _20210611carFixMgr.ui
             this.uiSymbolLabel6.Text = "배기량";
             this.uiSymbolLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // CarCC
+            // carCC
             // 
-            this.CarCC.FillColor = System.Drawing.Color.White;
-            this.CarCC.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.CarCC.Items.AddRange(new object[] {
+            this.carCC.FillColor = System.Drawing.Color.White;
+            this.carCC.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.carCC.Items.AddRange(new object[] {
             "1000cc 이하",
             "1600cc 이하",
             "2000cc 이하",
             "2500cc 이하",
             "2500cc 초과"});
-            this.CarCC.Location = new System.Drawing.Point(189, 310);
-            this.CarCC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.CarCC.MinimumSize = new System.Drawing.Size(63, 0);
-            this.CarCC.Name = "CarCC";
-            this.CarCC.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
-            this.CarCC.Size = new System.Drawing.Size(142, 29);
-            this.CarCC.TabIndex = 15;
-            this.CarCC.Text = "선택";
-            this.CarCC.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.carCC.Location = new System.Drawing.Point(189, 310);
+            this.carCC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.carCC.MinimumSize = new System.Drawing.Size(63, 0);
+            this.carCC.Name = "carCC";
+            this.carCC.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
+            this.carCC.Size = new System.Drawing.Size(142, 29);
+            this.carCC.TabIndex = 15;
+            this.carCC.Text = "선택";
+            this.carCC.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // CarYear
+            // carYear
             // 
-            this.CarYear.FillColor = System.Drawing.Color.White;
-            this.CarYear.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.CarYear.Items.AddRange(new object[] {
+            this.carYear.FillColor = System.Drawing.Color.White;
+            this.carYear.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.carYear.Items.AddRange(new object[] {
             "2021",
             "2020",
             "2019",
@@ -419,15 +419,15 @@ namespace _20210611carFixMgr.ui
             "2002",
             "2001",
             "2000"});
-            this.CarYear.Location = new System.Drawing.Point(189, 354);
-            this.CarYear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.CarYear.MinimumSize = new System.Drawing.Size(63, 0);
-            this.CarYear.Name = "CarYear";
-            this.CarYear.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
-            this.CarYear.Size = new System.Drawing.Size(142, 29);
-            this.CarYear.TabIndex = 17;
-            this.CarYear.Text = "선택";
-            this.CarYear.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.carYear.Location = new System.Drawing.Point(189, 354);
+            this.carYear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.carYear.MinimumSize = new System.Drawing.Size(63, 0);
+            this.carYear.Name = "carYear";
+            this.carYear.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
+            this.carYear.Size = new System.Drawing.Size(142, 29);
+            this.carYear.TabIndex = 17;
+            this.carYear.Text = "선택";
+            this.carYear.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // uiSymbolLabel7
             // 
@@ -569,6 +569,7 @@ namespace _20210611carFixMgr.ui
             // 
             this.receiptSave.BackColor = System.Drawing.Color.Transparent;
             this.receiptSave.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.receiptSave.FillColor = System.Drawing.SystemColors.ButtonShadow;
             this.receiptSave.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.receiptSave.Location = new System.Drawing.Point(128, 653);
             this.receiptSave.MinimumSize = new System.Drawing.Size(1, 1);
@@ -585,11 +586,16 @@ namespace _20210611carFixMgr.ui
             // 
             this.receiptClose.BackColor = System.Drawing.Color.Transparent;
             this.receiptClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.receiptClose.FillColor = System.Drawing.Color.Red;
+            this.receiptClose.FillDisableColor = System.Drawing.Color.Red;
+            this.receiptClose.FillHoverColor = System.Drawing.Color.Red;
             this.receiptClose.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.receiptClose.Location = new System.Drawing.Point(357, 653);
             this.receiptClose.MinimumSize = new System.Drawing.Size(1, 1);
             this.receiptClose.Name = "receiptClose";
             this.receiptClose.Radius = 30;
+            this.receiptClose.RectDisableColor = System.Drawing.Color.Red;
+            this.receiptClose.RectHoverColor = System.Drawing.Color.Red;
             this.receiptClose.Size = new System.Drawing.Size(201, 58);
             this.receiptClose.Style = Sunny.UI.UIStyle.Custom;
             this.receiptClose.Symbol = 61453;
@@ -703,11 +709,11 @@ namespace _20210611carFixMgr.ui
             this.Controls.Add(this.chk1);
             this.Controls.Add(this.uiSymbolLabel9);
             this.Controls.Add(this.uiSymbolLabel8);
-            this.Controls.Add(this.CarYear);
+            this.Controls.Add(this.carYear);
             this.Controls.Add(this.uiSymbolLabel7);
-            this.Controls.Add(this.CarCC);
+            this.Controls.Add(this.carCC);
             this.Controls.Add(this.uiSymbolLabel6);
-            this.Controls.Add(this.CarNum);
+            this.Controls.Add(this.carNum);
             this.Controls.Add(this.uiSymbolLabel5);
             this.Controls.Add(this.carModel);
             this.Controls.Add(this.uiSymbolLabel4);
@@ -740,11 +746,11 @@ namespace _20210611carFixMgr.ui
         private Sunny.UI.UIComboBox custDay;
         private Sunny.UI.UIComboBox carModel;
         private Sunny.UI.UISymbolLabel uiSymbolLabel4;
-        private Sunny.UI.UITextBox CarNum;
+        private Sunny.UI.UITextBox carNum;
         private Sunny.UI.UISymbolLabel uiSymbolLabel5;
         private Sunny.UI.UISymbolLabel uiSymbolLabel6;
-        private Sunny.UI.UIComboBox CarCC;
-        private Sunny.UI.UIComboBox CarYear;
+        private Sunny.UI.UIComboBox carCC;
+        private Sunny.UI.UIComboBox carYear;
         private Sunny.UI.UISymbolLabel uiSymbolLabel7;
         private Sunny.UI.UISymbolLabel uiSymbolLabel8;
         private Sunny.UI.UISymbolLabel uiSymbolLabel9;

@@ -71,6 +71,12 @@
     <Compile Include="model\Receipt.cs" />
     <Compile Include="model\RepairItem.cs" />
     <Compile Include="model\Staff.cs" />
+    <Compile Include="ui\ErrorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\ErrorForm.Designer.cs">
+      <DependentUpon>ErrorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ui\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ui\ErrorForm.resx">
+      <DependentUpon>ErrorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ui\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
