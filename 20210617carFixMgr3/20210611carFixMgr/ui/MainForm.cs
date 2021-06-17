@@ -1,4 +1,5 @@
-﻿using _20210611carFixMgr.ui;
+﻿using _20210611carFixMgr.common;
+using _20210611carFixMgr.ui;
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,7 @@ namespace _20210611carFixMgr
         public MainForm()
         {
             InitializeComponent();
+            CommUtil.initTheme(this);
         }
 
         private void mainExit_Click(object sender, EventArgs e)

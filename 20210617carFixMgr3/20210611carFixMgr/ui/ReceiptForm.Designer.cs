@@ -113,6 +113,7 @@ namespace _20210611carFixMgr.ui
             // 
             // custTelH
             // 
+            this.custTelH.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
             this.custTelH.FillColor = System.Drawing.Color.White;
             this.custTelH.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.custTelH.Items.AddRange(new object[] {
@@ -146,6 +147,7 @@ namespace _20210611carFixMgr.ui
             // 
             // custYear
             // 
+            this.custYear.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
             this.custYear.FillColor = System.Drawing.Color.White;
             this.custYear.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.custYear.Items.AddRange(new object[] {
@@ -207,6 +209,7 @@ namespace _20210611carFixMgr.ui
             // 
             // custMonth
             // 
+            this.custMonth.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
             this.custMonth.FillColor = System.Drawing.Color.White;
             this.custMonth.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.custMonth.Items.AddRange(new object[] {
@@ -234,6 +237,7 @@ namespace _20210611carFixMgr.ui
             // 
             // custDay
             // 
+            this.custDay.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
             this.custDay.FillColor = System.Drawing.Color.White;
             this.custDay.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.custDay.Items.AddRange(new object[] {
@@ -280,6 +284,7 @@ namespace _20210611carFixMgr.ui
             // 
             // carModel
             // 
+            this.carModel.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
             this.carModel.FillColor = System.Drawing.Color.White;
             this.carModel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.carModel.Items.AddRange(new object[] {

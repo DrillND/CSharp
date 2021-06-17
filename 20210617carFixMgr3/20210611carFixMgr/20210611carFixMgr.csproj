@@ -64,6 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="common\CommUtil.cs" />
     <Compile Include="handler\OraHandler.cs" />
     <Compile Include="handler\ReceiptiAdapter.cs" />
     <Compile Include="model\Car.cs" />
