@@ -1,4 +1,5 @@
 ﻿using _20210611carFixMgr.common;
+using _20210611carFixMgr.handler;
 using _20210611carFixMgr.ui;
 using MaterialSkin.Controls;
 using System;
@@ -15,6 +16,9 @@ namespace _20210611carFixMgr
 { 
     public partial class MainForm : MaterialForm //form 클래스에서 상속받은 메인 폼, partial = 특수한 형태(메인폼,메인폼[디자인])
     {
+        OraHandler ora = new OraHandler();
+        ReceiptAdapter adapter = new ReceiptAdapter();
+
         public MainForm()
         {
             InitializeComponent();

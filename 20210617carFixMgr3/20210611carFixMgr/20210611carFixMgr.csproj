@@ -80,6 +80,7 @@
     </Compile>
     <Compile Include="main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ui\ReceiptAdapter.cs" />
     <Compile Include="ui\ReceiptForm.cs">
       <SubType>Form</SubType>
     </Compile>

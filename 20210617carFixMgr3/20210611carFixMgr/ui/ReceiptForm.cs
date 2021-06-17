@@ -17,7 +17,8 @@ namespace _20210611carFixMgr.ui
         {
             InitializeComponent();
         }
-
+        #region 고객 정보 저장 메쏘드
+        
         private void receiptSave_Click(object sender, EventArgs e)
         {
             string name = custName.Text;
@@ -60,6 +61,15 @@ namespace _20210611carFixMgr.ui
 
             };
 
+            //한글 입력 체크
+            Regex regex = new Regex(@"^[가-힣]{3}$");
+            Match m = regex.Match(name);
+            if (m.Success == false)
+            {
+                setFocus(custName, Properties.Resources.ERR_NAME_WRONG);
+                return;
+            }
+
             for (int i = 0; i < arrData.Length; i++)
             {
                 if (arrData[i].Equals("") || arrData[i].Equals("선택"))
@@ -82,6 +92,7 @@ namespace _20210611carFixMgr.ui
             Customer cust = new Customer(arrData[0], arrData[1] + arrData[2], arrData[3] + arrData[4] + arrData[5]);
             //public Receipt(Customer cust, Car car, string inDate, string staffName, List<RepairItem> itemList)
             Receipt receipt = new Receipt(cust, car, DateTime.Now.ToString("yyyyMMdd"), arrData[10], itemList);
+            //객체 생성 오류 잡고 나서 객체 생성해야된다.
 
             for (int i = RepairTable.ENGINE_OIL; i < RepairTable.ETC_COST + 1; i++)
             {
@@ -120,21 +131,15 @@ namespace _20210611carFixMgr.ui
 
             
 
-            ReceiptiAdapter receiptiAdapter = new ReceiptiAdapter();
+            /*ReceiptiAdapter receiptiAdapter = new ReceiptiAdapter();
             receiptiAdapter.addReceipt(receipt);
-            receiptiAdapter.viewReceipt(receipt);
+            receiptiAdapter.viewReceipt(receipt);*/ //이거 메인폼에서 해라
 
-            //한글 입력 체크
-            string chkName = Regex.Replace(name, @"[^가-힣]{2,4}", "");
-            Console.WriteLine("정규표현식: " + chkName);
-            if(chkName.Length != name.Length)
-            {
-                setFocus(custName, Properties.Resources.ERR_NAME_WRONG);
-                return;
-            }
 
+
+            /*
             //자리수 체크
-            Regex regex = new Regex(@"[가-힣]{3}");
+            Regex regex = new Regex(@"^[가-힣]{3}");
             Match m = regex.Match(name);
             if (m.Success == false)
             {
@@ -143,13 +148,13 @@ namespace _20210611carFixMgr.ui
                 ActiveControl.Focus();
                 custName.Text = "";
                 return;
-            }
+            }*/
 
             //전화번호 체크
             string telAll = telH + telB;
             if (telAll.Length == 10 || telAll.Length == 11)
             {
-                Regex regex2 = new Regex(@"01{1}[016789]{1}[0-9]{7,8}");
+                Regex regex2 = new Regex(@"^01{1}[01]{1}[0-9]{8}$");
 
                 Match m2 = regex2.Match(telAll); 
                 if (m2.Success == false)
@@ -199,7 +204,7 @@ namespace _20210611carFixMgr.ui
             */
             Close();
         }
-
+        #endregion
         private void setFocus(Control cont,string msg)
         {
             MessageBox.Show(msg);
