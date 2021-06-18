@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace carFixMgr0611.model
 {
+    //m대m 관계에서 그 관계를 테이블화 해야 한다.
+    //테이블의 정규화, 중복되는 테이블을 없애기 위해서
     class Customer
     {
         private string name;

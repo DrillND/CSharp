@@ -16,7 +16,7 @@ namespace carFixMgr0611
 {
     public partial class MainForm : MaterialForm
     {
-        //OraHandler ora = new OraHandler();
+        OraHandler ora = new OraHandler();
         //맨처음 프로그램이 시작할 때.
         ReceiptAdapter adapter = new ReceiptAdapter();
         public MainForm()
