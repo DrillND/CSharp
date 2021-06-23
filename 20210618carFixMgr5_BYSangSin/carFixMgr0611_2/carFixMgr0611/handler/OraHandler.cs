@@ -60,5 +60,19 @@ namespace carFixMgr0611.handler
                 Console.WriteLine("오라클 접속 해제 에러!");
             }
         }
+        public void insertdb()
+        {
+            string model = "그랜저";
+            string cc = "2500cc이하";
+            string number = "23가2345";
+            string caryear = "2020년식";
+
+            string query = string.Format("insert into car_t values " + "(CAR_T_SEQ.NEXTVAL,'{0}','{1}','{2}','{3}')",
+                model,number,cc,caryear);
+
+            cmd.Connection = conn;
+            cmd.CommandText = query;
+            cmd.ExecuteNonQuery();
+        }
     }
 }

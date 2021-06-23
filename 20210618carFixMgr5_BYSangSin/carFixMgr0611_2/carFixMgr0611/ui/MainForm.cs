@@ -16,9 +16,9 @@ namespace carFixMgr0611
 {
     public partial class MainForm : MaterialForm
     {
-        OraHandler ora = new OraHandler();
+        static OraHandler ora = new OraHandler();
         //맨처음 프로그램이 시작할 때.
-        ReceiptAdapter adapter = new ReceiptAdapter();
+        ReceiptAdapter adapter = new ReceiptAdapter(ora);
         public MainForm()
         {
             InitializeComponent();
@@ -35,6 +35,7 @@ namespace carFixMgr0611
         {
             new ReceiptForm(adapter).ShowDialog();
             //생성자(매개변수)
+            adapter.addReceiptDb();
         }
 
         private void custFixView_Click(object sender, EventArgs e)
