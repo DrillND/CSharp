@@ -18,13 +18,13 @@ namespace carFixMgr0611.ui
 {
     partial class ReceiptForm : MaterialForm //오버로딩, 앞에 퍼블릭 빼고 정보를 단일화(ReceiptAdapter과)
     {
-        ReceiptAdapter adapter;
+        ReceiptAdapter adapter; //그냥 변수선언과 같은
         public ReceiptForm()
         {
             InitializeComponent();
         }
 
-        public ReceiptForm(ReceiptAdapter adapter) 
+        public ReceiptForm(ReceiptAdapter adapter) //생성자
         {
             InitializeComponent();
             this.adapter = adapter;
