@@ -1,0 +1,3 @@
+DB ---Handler --- Adapter --- 접수내역
+
+학습내용 : DB 데이터 출력하기
